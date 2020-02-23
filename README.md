@@ -1,12 +1,12 @@
 # tesla-quant
-from quantopian.algorithm import attach_pipeline, pipeline_output
-from quantopian.pipeline import Pipeline
-#from quantopian.research import run_pipeline
-from quantopian.pipeline.data.user_5e3da1b96dd8c20046f64630 import tsla_sent as tsent
-from quantopian.pipeline.factors import AverageDollarVolume, SimpleMovingAverage
+ from quantopian.algorithm import attach_pipeline, pipeline_output
+ from quantopian.pipeline import Pipeline
+ #from quantopian.research import run_pipeline
+ from quantopian.pipeline.data.user_5e3da1b96dd8c20046f64630 import tsla_sent as tsent
+ from quantopian.pipeline.factors import AverageDollarVolume, SimpleMovingAverage
  
-from quantopian.pipeline.factors import CustomFactor
-import numpy as np
+ from quantopian.pipeline.factors import CustomFactor
+ import numpy as np
 
 ##----------------------------------------------------------------------------##
 
